@@ -73,7 +73,7 @@ export class YugiohCard extends Card {
       copyright: '',
       laser: '',
       rare: '',
-      twentieth: false,
+      twentieth: '',
       radius: true,
       scale: 1,
     };
@@ -736,12 +736,13 @@ export class YugiohCard extends Card {
       this.leafer.add(this.twentiethLeaf);
     }
 
-    const twentiethUrl = `${this.baseImage}/twentieth.png`;
+    const twentiethUrl = `${this.baseImage}/${this.data.twentieth}.png`;
+    console.log(this.data.twentieth);
     this.twentiethLeaf.set({
       url: twentiethUrl,
       x: 472,
       y: 1532,
-      visible: this.data.twentieth,
+      visible: this.data.twentieth!=='',
       zIndex: 10,
     });
   }
