@@ -1,4 +1,4 @@
-<h1 align="center">🎉 游戏王卡片 - Yugioh Card 🎉</h1>
+<h1 align="center">🎉 游戏王卡片 - Yugioh Card-魔改版 🎉</h1>
 
 <p align="center">
   <a href="https://www.npmjs.org/package/yugioh-card">
